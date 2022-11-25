@@ -1,0 +1,25 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4433694;
+  border: 1px solid grey;
+  border-radius: 2rem;
+  padding: 25px;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transform: translate(0);
+  transition: transform 0.25s ease-out;
+  box-shadow: 10px 7px 15px 0px rgba(13, 13, 13, 0.75);
+  -webkit-box-shadow: 10px 7px 15px 0px rgba(13, 13, 13, 0.75);
+  -moz-box-shadow: 10px 7px 15px 0px rgba(13, 13, 13, 0.75);
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.img-wrapper {
+  border-radius: 20%;
+  background-color: #fff;
+}
